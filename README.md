@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 Bloccit: a Reddit clone to teach the fundamentals of web development and Rails 4.
 
 Made with my mentor at [Bloc](http://bloc.io).
 
 == README
+=======
+updated == README
+>>>>>>> 8efc85e73b71c9c9a2b8bcb65585119f0dcf764f
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
