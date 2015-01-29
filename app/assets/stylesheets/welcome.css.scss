@@ -22,6 +22,29 @@ h1 {
    margin: 5px 5px 5px 5px;
    padding: 5px 5px 5px 5px;
  }
+
+h1 { 
+  color : green;
+}
+ p#.social-btn {
+  text-align: center;
+   font-size: 15px;
+   color: red;}
+
+   box {
+    position: static;
+    width: 200px;
+    border: 10px solid #99c;
+    padding: 20px;
+    margin: 20px;
+}
+
+.posts {
+     border: solid;
+     margin: 7px;
+     padding: 6px;
+     height: 200px;
+ }
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
