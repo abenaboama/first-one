@@ -1,18 +1,15 @@
 class PostPolicy < ApplicationPolicy
-
-   class Scope < Scope 
+  class Scope < Scope 
     def resolve 
       if user.admin? || user.moderator? 
-      scope.all
-
+        scope.all
       else
-      scope.where(:id => user.id).exists?
+        scope.where(:id => user.id).exists?
       end
     end
   end 
-end
 
-def index?
+  def index?
     true
   end
-
+end
